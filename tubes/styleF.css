@@ -1,0 +1,403 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.heading {
+  text-align: center;
+  padding: 20px;
+}
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+.wrapper .kolom p {
+  font-size: 20px;
+  padding: 10px;
+}
+.wrapper.kolom img {
+  width: 20%;
+}
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  float: right;
+}
+.menu a {
+  font-size: 17px;
+  color: white;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: rgb(28, 103, 188);
+  z-index: 1;
+  border-bottom: 1px solid salmon;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: black;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #fc5185;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background: #3f72af;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.tutor-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-tutor {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-tutor img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.kartu-tutor p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partner img {
+  width: 150px;
+  border-bottom: 50%;
+}
+
+#contact {
+  background: #2886ca;
+  padding: 100px;
+}
+
+.carousel-inner .carousel-item {
+  width: 10%;
+}
+
+.form-containerr {
+  min-height: 100vh;
+  background-color: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: url("../tubes/img/cover.jpg");
+  background-position: center;
+}
+
+.form-containerr form {
+  padding: 2rem;
+  width: 50rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  background-color: var(--white);
+  text-align: center;
+}
+
+.form-containerr form h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.form-containerr form .box {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: var(--light-bg);
+  padding: 1.2rem 1.4rem;
+  font-size: 1.8rem;
+  color: var(--black);
+  border: var(--border);
+  margin: 1rem 0;
+}
+
+.form-containerr form p {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.form-containerr form p a {
+  color: #374259;
+}
+
+.form-containerr form p a:hover {
+  text-decoration: underline;
+}
+
+.contact .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 10px 100px 10px 100px;
+}
+
+.contact .row form {
+  border: var(--border);
+  flex: 1 1 40rem;
+  padding: 1%;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.contact .row form .box {
+  width: 100%;
+  border: var(--border);
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: var(--black);
+  margin: 0.5rem 0;
+}
+
+.contact .row form textarea {
+  height: 10rem;
+  resize: none;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1%, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer .box-container .box {
+  text-align: center;
+}
+
+.footer .box-container .box img {
+  height: 5rem;
+  margin-bottom: 10px;
+}
+
+.footer .box-container .box h3 {
+  margin: 2rem 0 0 0;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.footer .box-container .box a,
+.footer .box-container .box p {
+  line-height: 2;
+  font-size: 2rem;
+  color: var(--light-color);
+  display: block;
+  text-decoration: none;
+}
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #467cb9;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+:root {
+  --purple: #8e44ad;
+  --red: #c0392b;
+  --orange: #f39c12;
+  --black: #333;
+  --white: #fff;
+  --light-color: #666;
+  --light-white: #ccc;
+  --light-bg: #f5f5f5;
+  --border: 0.1rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover {
+  background-color: var(--black);
+}
+
+.white-btn,
+.btn {
+  background-color: #5872ab;
+}
+
+.option-btn {
+  background-color: #4f709c;
+}
+
+.delete-btn {
+  background-color: var(--red);
+}
+
+.white-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}

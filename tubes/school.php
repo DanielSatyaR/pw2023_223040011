@@ -1,140 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scholl.</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleF.css">
+</body>
+
+</html>
+
 
 <body>
     <nav>
         <div class="wrapper">
-            <div class="logo"><a href=''>Scholl.</a></div>
+            <div class="logo"><a href=''>EduLive</a></div>
             <div class="menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#courses">Courses</a></li>
-                    <li><a href="#tutors">Tutors</a></li>
-                    <li><a href="#partners">Partners</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="register.php" class="tbl-biru">Sign Up</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="wrapper">
         <!-- untuk home -->
         <section id="home">
-            <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg&ga=GA1.2.1769275626.1605867161" />
+            <img src="../tubes/img/ling.jpg" />
             <div class="kolom">
-                <p class="deskripsi">Belajar Programming #dirumahaja</p>
-                <h2>Tetap Sehat, Tetap Semangat</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, nobis.</p>
-                <p><a href="" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+                <p class="deskripsi">EduLive</p>
+                <h2>Lingkungan</h2>
+                <p>Marilah kita menjaga lingkungan agar tetap bersih dan enak di pandang.Pendidikan lingkungan adalah upaya untuk meningkatkan kesadaran dan pemahaman individu mengenai isu-isu lingkungan serta mendorong tindakan yang bertanggung jawab terhadap lingkungan. Tujuan utamanya adalah membentuk sikap dan perilaku yang berkelanjutan dan ramah lingkungan.</p>
+                <p><a href="lingkungan.php" class="tbl-pink">Pembahasan</a></p>
             </div>
         </section>
 
         <!-- untuk courses -->
         <section id="courses">
             <div class="kolom">
-                <p class="deskripsi">You Will Need This</p>
-                <h2>Online Courses</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+                <p class="deskripsi">EduLive</p>
+                <h2>Pembahasan</h2>
+                <p>Pendidikan lingkungan adalah proses pembelajaran dan penyampaian informasi tentang isu-isu lingkungan, keberlanjutan, dan praktik-praktik yang berkelanjutan kepada individu-individu dengan tujuan untuk meningkatkan pemahaman, kesadaran, dan partisipasi mereka dalam menjaga dan melindungi lingkungan alam.</p>
+                <p>Lingkungan alam adalah bagian lingkungan yang terdiri dari elemen-elemen alam yang ada sebelum campur tangan manusia. Ini meliputi ekosistem alami seperti hutan, sungai, dan lautan, serta makhluk hidup seperti tumbuhan, hewan, dan mikroorganisme.
+                </p>
+                <p><a href="lingkungan.php" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
             </div>
-            <img src="https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg?size=626&ext=jpg&ga=GA1.2.1769275626.1605867161" />
+            <img src="../tubes/img/ling1.jpg" />
         </section>
 
         <!-- untuk tutors -->
-        <section id="tutors">
-            <div class="tengah">
-                <div class="kolom">
-                    <p class="deskripsi">Our Top Tutors</p>
-                    <h2>Tutors</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, optio!</p>
+
+
+        <footer class="footer">
+
+            <section class="box-container">
+
+                <div class="box">
+                    <img src="../tubes/img/email.png" alt="">
+                    <h3>Our Email</h3>
+                    <a href="mailto:danielsatyar@gmail.com">danielsatyar@gmail.com</a>
+                </div>
+                <div class="box">
+                    <img src="../tubes/img/insta.png" alt="">
+                    <h3>Instagram</h3>
+                    <a href="tel:082345829229">082345829229</a>
+
                 </div>
 
-                <div class="tutor-list">
-                    <div class="kartu-tutor">
-                        <img src="" />
-                        <p>Lorem</p>
-                    </div>
-                    <div class="kartu-tutor">
-                        <img src="" />
-                        <p>Lorem</p>
-                    </div>
-                    <div class="kartu-tutor">
-                        <img src="" />
-                        <p>Lorem</p>
-                    </div>
-                    <div class="kartu-tutor">
-                        <img src="" />
-                        <p>Lorem</p>
-                    </div>
+                <div class="box">
+                    <img src="../tubes/img/contact.jpg" alt="">
+                    <h3>Our Number</h3>
+                    <a href="tel:082345829229">082345829229</a>
+
                 </div>
-            </div>
+
+            </section>
+
+        </footer>
+
+
+
         </section>
-
-        <!-- untuk partners -->
-        <section id="partners">
-            <div class="tengah">
-                <div class="kolom">
-                    <p class="deskripsi">Our Top Partners</p>
-                    <h2>Partners</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi magni tempore expedita sequi. Similique rerum doloremque impedit saepe atque maxime.</p>
-                </div>
-
-                <div class="partner-list">
-                    <div class="kartu-partner">
-                        <img src="https://www.designevo.com/res/templates/thumb_small/black-wheat-and-mortarboard.png" />
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-63.jpg" />
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-62.jpg" />
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://www.designevo.com/res/templates/thumb_small/encircled-branches-and-book.png" />
-                    </div>
-                    <div class="kartu-partner">
-                        <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-64.jpg" />
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <div id="contact">
-        <div class="wrapper">
-            <div class="footer">
-                <div class="footer-section">
-                    <h3>Scholl.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
-                </div>
-                <div class="footer-section">
-                    <h3>About</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>lorem</p>
-                </div>
-                <div class="footer-section">
-                    <h3>lorem</h3>
-                    <p><b>lorem </b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, deleniti?</p>
-                </div>
-            </div>
-        </div>
     </div>
 
     <div id="copyright">
         <div class="wrapper">
-            &copy; 2025. <b>School.</b> All Rights Reserved.
+            &copy; 2023 <b>Library</b> All Rights Reserved.
         </div>
     </div>
 
