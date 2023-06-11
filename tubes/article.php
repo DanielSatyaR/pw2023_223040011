@@ -23,7 +23,7 @@ $db_edukasi = query("SELECT * FROM db_edukasi"); ?>
             <div class="logo"><a href=''>EduLive</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="#home">dashboard</a></li>
+                    <li><a href="dashboard.php">dashboard</a></li>
                     <li><a href="#courses">Article List</a></li>
                     <li><a href="register.php" class="tbl-biru">Logout</a></li>
                 </ul>
