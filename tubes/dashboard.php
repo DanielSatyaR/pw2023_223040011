@@ -47,6 +47,6 @@ if (!isset($admin_id)) {
             <p class="deskripsi">Lingkungan</p>
             <h2>Lingkungan</h2>
             <p>Marilah kita menjaga lingkungan agar tetap bersih dan enak di pandang.Pendidikan lingkungan adalah upaya untuk meningkatkan kesadaran dan pemahaman individu mengenai isu-isu lingkungan serta mendorong tindakan yang bertanggung jawab terhadap lingkungan. Tujuan utamanya adalah membentuk sikap dan perilaku yang berkelanjutan dan ramah lingkungan.</p>
-            <p><a href="school.php" class="tbl-pink">lorem</a></p>
+            <p><a href="school.php" class="tbl-pink">Learn More</a></p>
         </div>
     </section>

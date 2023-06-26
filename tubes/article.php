@@ -34,7 +34,7 @@ $db_edukasi = query("SELECT * FROM db_edukasi"); ?>
     <div class="section">
         <div class="container">
             <h3 class="col-md-2">Dashboaard</h3>
-            <a href="./admin/add.php" class="btn btn-primary">Tambah Data Mahasiswa</a>
+            <a href="./admin/add.php" class="btn btn-primary">Tambah Artikel</a>
             <table class="table">
                 <thead>
                     <tr>

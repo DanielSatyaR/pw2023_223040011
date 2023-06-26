@@ -26,7 +26,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#courses">Courses</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="register.php" class="tbl-biru">Sign Up</a></li>
+                    <li><a href="register.php" class="tbl-biru">Logout</a></li>
                 </ul>
             </div>
         </div>
@@ -107,7 +107,7 @@
 
         <div id="copyright">
             <div class="wrapper">
-                &copy; 2023 <b>Library</b> All Rights Reserved.
+                &copy; 2023 <b>Edulive</b> All Rights Reserved.
             </div>
         </div>
 

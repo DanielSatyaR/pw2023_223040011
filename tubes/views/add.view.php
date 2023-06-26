@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <h1 class="mt-5 text-center">Form Tambah Data</h1>
+        <h1 class="mt-5 text-center">Form Tambah Artikel</h1>
         <form action="" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="gambar" class="form-label">Gambar</label>
@@ -27,7 +27,7 @@
                 <textarea class="form-control" id="deskripsi" name="deskripsi" rows="4" required></textarea>
             </div>
 
-            <button type="submit" name="publish" class="btn btn-primary">Tambah Data</button>
+            <button type="submit" name="publish" class="btn btn-primary">Tambah Artikel</button>
         </form>
     </div>
 

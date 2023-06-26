@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
-    <title>Form Tambah Data</title>
+    <title>Form Ubah Artikel</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 class="mt-5 text-center">Form Tambah Data</h1>
+        <h1 class="mt-5 text-center">Form Ubah Artikel</h1>
         <form action="" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?= $dbedukasi["id"]; ?>">
             <input type="hidden" name="gambarLama" value="<?= $dbedukasi["gambar"]; ?>">
@@ -29,7 +29,7 @@
                 <textarea class="form-control" id="deskripsi" name="deskripsi" rows="4" required><?= $dbedukasi["deskripsi"]; ?></textarea>
             </div>
 
-            <button type="submit" name="publish" class="btn btn-primary">Update Data</button>
+            <button type="submit" name="publish" class="btn btn-primary">Update Artikel</button>
         </form>
     </div>
 
